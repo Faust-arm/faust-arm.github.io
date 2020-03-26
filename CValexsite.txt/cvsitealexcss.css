@@ -1,0 +1,119 @@
+
+.prenomj
+{ 
+    color: #FFCA28;
+    
+}
+
+.deve
+{  
+    border-bottom:2px #FFCA28 solid;
+}
+
+h1
+{ 
+    border:1px white none;
+    text-align: left;
+    margin: 30px;
+    
+    
+    
+}
+.soustitre
+{ 
+    font-size: 1.4em;
+    color: rgb(77, 74, 74);
+}
+.am
+{ 
+    font-size: 3em;
+    font-family: Verd;
+}
+
+section h2, section h3, section h4
+{ 
+    border-bottom: 2PX #FFCA28 solid ;
+    text-align: left;
+    width: 90%;
+    margin-left:89px ;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 19%;
+    padding-bottom: 14px;
+}
+
+li
+{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgb(92, 88, 88);
+}
+
+
+#photocv
+{ 
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: url("photocvmini.jpg");
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto;
+  background-size: cover;
+  background-position: center;
+}
+.partiegauche {
+  color: rgb(92, 88, 88);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  
+}
+
+.partiegauche
+{ 
+    width: 27%;
+    border:1px none gray;
+    color:rgb(92, 88, 88);
+    background:#FFCA28;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align: left;
+} 
+
+
+.partiegauche h4, h5, h6
+{ 
+    border:1px gray solid;
+    padding: 9px;
+    text-align: center;
+    background:rgb(68, 67, 67);
+    color: #FFCA28;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+#sectionnav
+{ 
+    
+    border:1px none black;
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    text-align: center;
+}
+
+.section
+{ 
+    width: 70%; 
+    margin-le
+}      
+
+
+
