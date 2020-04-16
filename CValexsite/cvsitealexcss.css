@@ -51,18 +51,20 @@ section h2, section h3, section h4
     margin-left:30px ;
 }
 
+.devh3
+{   
+    margin-left: 300PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgb(92, 88, 88);
+}
+
 .valise, .chapeauetude, .stylo
 {  
     color: #FFCA28;
     width: 30px;
 }
 
-li
-{ 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    color: rgb(92, 88, 88);
-}
 
 
 #photocv
@@ -92,7 +94,7 @@ li
 
 .partiegauche
 { 
-    width: 30%;
+    width: 400PX;
     border:1px none gray;
     color:rgb(92, 88, 88);
     background:#FFCA28;
@@ -137,13 +139,38 @@ li
     display:flex;
     flex-direction: row-reverse;
     justify-content: left;
-    text-align: center;
+    text-align: cente;
+}
+
+.date, .nice
+{   
+
+    margin-left: 20px;
+    
+    
+    
+}
+
+
+.dev
+{    
+    
+     margin-left: 305PX;
+     font-size: 1.2em;
+    
+}
+
+.open 
+{    
+    margin-left: 250PX;
+    font-size: 1.3em;
+    
 }
 
 #texth2 
 {  
     
-
+    
     font-size:1.4em;
     color:rgb(92, 88, 88);
     border: #FFCA28 1px none;
@@ -153,12 +180,15 @@ li
 {  
     border: #FFCA28 1px none;
     margin-top: 5PX;
+    text-align: justify;
+    margin-left: 310PX;
 }
 
 .langage
 {  
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 30PX;
 }
 @media all and (max-width: 930px)
 { 
