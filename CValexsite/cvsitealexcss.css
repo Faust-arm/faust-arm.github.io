@@ -139,30 +139,53 @@ section h2, section h3, section h4
     display:flex;
     flex-direction: row-reverse;
     justify-content: left;
-    text-align: cente;
+    
 }
 
-.date, .nice
+.datenice
 {   
-
-    margin-left: 20px;
+      
+      width: 35PX;
+      margin-left: 105px;
+      display: flex;
+      flex-direction: column;
     
+}
+
+.dateopen
+{  
+    margin-top: 35PX;
+    display: flex;
+    flex-direction: row;
     
     
 }
 
+.opendev
+{    
+    
+    
+    margin-left: 170PX;
+    border: #FFCA28 solid 1PX;
+    
+    
+    
+
+}
 
 .dev
 {    
-    
-     margin-left: 305PX;
+    width: 250PX;
+     margin-left: 272PX;
      font-size: 1.2em;
+     margin-left: 32PX;
     
 }
 
 .open 
 {    
-    margin-left: 250PX;
+    width: 300PX;
+    margin-left: 30PX;
     font-size: 1.3em;
     
 }
@@ -181,7 +204,7 @@ section h2, section h3, section h4
     border: #FFCA28 1px none;
     margin-top: 5PX;
     text-align: justify;
-    margin-left: 310PX;
+    margin-left: 355PX;
 }
 
 .langage
