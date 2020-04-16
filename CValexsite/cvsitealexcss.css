@@ -34,8 +34,8 @@ section h2, section h3, section h4
 { 
     border-bottom: 2PX #FFCA28 solid ;
     text-align: left;
-    width: 90%;
-    margin-left:89px ;
+    width: 95%;
+    margin-left:95px ;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 19%;
@@ -63,6 +63,8 @@ section h2, section h3, section h4
 {  
     color: #FFCA28;
     width: 30px;
+    margin-left: 10PX;
+    font-size: 1.5em;
 }
 
 
@@ -94,7 +96,7 @@ section h2, section h3, section h4
 
 .partiegauche
 { 
-    width: 400PX;
+    width: 430PX;
     border:1px none gray;
     color:rgb(92, 88, 88);
     background:#FFCA28;
@@ -145,10 +147,11 @@ section h2, section h3, section h4
 .datenice
 {   
       
-      width: 35PX;
-      margin-left: 105px;
+      width: 25PX;
+      margin-left: 30px;
       display: flex;
       flex-direction: column;
+      font-size: 1.2em;
     
 }
 
@@ -161,16 +164,18 @@ section h2, section h3, section h4
     
 }
 
+.icone
+{   
+    width: 7PX;
+    align-self: flex-start;
+    margin-left: 95PX;
+    color: #FFCA28;
+    
+}
+
 .opendev
 {    
-    
-    
-    margin-left: 170PX;
-    border: #FFCA28 solid 1PX;
-    
-    
-    
-
+    margin-left: 156PX;
 }
 
 .dev
@@ -179,7 +184,7 @@ section h2, section h3, section h4
      margin-left: 272PX;
      font-size: 1.2em;
      margin-left: 32PX;
-    
+     color:rgb(92, 88, 88);
 }
 
 .open 
@@ -204,7 +209,7 @@ section h2, section h3, section h4
     border: #FFCA28 1px none;
     margin-top: 5PX;
     text-align: justify;
-    margin-left: 355PX;
+    margin-left: 345PX;
 }
 
 .langage
