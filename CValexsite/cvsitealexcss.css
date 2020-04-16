@@ -118,6 +118,32 @@ section h2, section h3, section h4
     
 }
 
+.touteslesicone
+{  
+    width: 350PX;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.nage, .altère, .livre 
+{   
+    border-radius: 50%;
+    overflow: hidden;
+    width: 65px;
+    height: 63px;
+    border:rgb(68, 67, 67) 2PX solid ;
+    margin: auto;
+    text-align: center;
+    margin-left: 55PX;
+    margin-bottom: 50PX;
+
+    
+
+}
+
 
 .h4text 
  { 
