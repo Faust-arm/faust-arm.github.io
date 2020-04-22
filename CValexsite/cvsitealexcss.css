@@ -13,7 +13,7 @@
 h1
 { 
     border:1px white none;
-    text-align: left;
+    text-aligN: left;
     margin: 30px;
     
     
@@ -30,7 +30,7 @@ h1
     font-family: Verd;
 }
 
-section h2, section h3, section h4
+section h2
 { 
     border-bottom: 2PX #FFCA28 solid ;
     text-align: left;
@@ -42,9 +42,17 @@ section h2, section h3, section h4
     padding-bottom: 14px;
 }
 
+#texth2 
+{  
+    
+    
+    font-size:1.4em;
+    color:rgb(92, 88, 88);
+    border: #FFCA28 1px none;
+}
 
 
-.h3text, .h2text, .h4text
+.h2text
 {  
     
     
@@ -106,7 +114,9 @@ section h2, section h3, section h4
 } 
 
 
-.partiegauche h4, h5, h6
+
+
+.partiegauche h2
 { 
     border:1px gray solid;
     padding: 9px;
@@ -145,11 +155,11 @@ section h2, section h3, section h4
 }
 
 
-.h4text 
+.contacttext 
  { 
      margin-left: 40px;
 }
-.h5text
+.aproposdemoitext
 { 
   
     margin-left: 30px;
@@ -159,14 +169,15 @@ section h2, section h3, section h4
 
 
 
-#sectionnav
+#toutelessections
 { 
     
-    border:1px none black;
+    border:1px solid black;
     width:100%;
     display:flex;
     flex-direction: row-reverse;
     justify-content: left;
+    
     
 }
 
@@ -221,14 +232,6 @@ section h2, section h3, section h4
     
 }
 
-#texth2 
-{  
-    
-    
-    font-size:1.4em;
-    color:rgb(92, 88, 88);
-    border: #FFCA28 1px none;
-}
 
 .html, .java, .node, .mongodb, .express, .langage, .vuejs
 {  
@@ -244,12 +247,14 @@ section h2, section h3, section h4
     color: black;
     margin-top: 30PX;
 }
-@media all and (max-width: 930px)
+@media all and (max-width: 830px)
 { 
-    #sectionnav
+    #toutelessections
     { 
+        
         flex-direction: column;
-        text-align: center;
+        
+        width: auto;
     }  
     
  .partiegauche
@@ -257,6 +262,24 @@ section h2, section h3, section h4
      width: auto;
      
      
- }   
+ } 
+}  
+@media all and (min-width:830px)and(max-width:1050px)
+{   
+ section h2
+ {   
+     width: auto;
+     margin-left: 70px;
+     
+
+     
+ }
+
+ .devh3
+ {   
+     margin: auto;
+     
+ }
+
 }
 
