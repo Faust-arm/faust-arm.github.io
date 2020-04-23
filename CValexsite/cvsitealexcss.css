@@ -4,6 +4,10 @@
     color: #FFCA28;
     
 }
+body
+{   
+    margin:0;
+}
 
 .deve
 {  
@@ -30,12 +34,17 @@ h1
     font-family: Verd;
 }
 
+section
+{  
+    padding: 0 95px 0 95px;
+}
+
 section h2
 { 
     border-bottom: 2PX #FFCA28 solid ;
     text-align: left;
-    width: 95%;
-    margin-left:95px ;
+    width: 100%;
+     
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 19%;
@@ -61,7 +70,7 @@ section h2
 
 .devh3
 {   
-    margin-left: 300PX;
+    margin-lef: 300PX;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     color: rgb(92, 88, 88);
@@ -71,7 +80,7 @@ section h2
 {  
     color: #FFCA28;
     width: 30px;
-    margin-left: 10PX;
+    margin-lef: 10PX;
     font-size: 1.5em;
 }
 
@@ -95,7 +104,8 @@ section h2
   background-size: cover;
   background-position: center;
 }
-.partiegauche {
+.partiegauche 
+{
   color: rgb(92, 88, 88);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4em;
@@ -134,7 +144,7 @@ section h2
     font-size: 2em;
     display: flex;
     flex-direction: row;
-    
+    padding: 10px 40px 0 0;
     
 }
 
@@ -173,7 +183,7 @@ section h2
 { 
     
     border:1px solid black;
-    width:100%;
+    width:auto;
     display:flex;
     flex-direction: row-reverse;
     justify-content: left;
@@ -184,8 +194,8 @@ section h2
 .datenice
 {   
       
-      width: 25PX;
-      margin-left: 30px;
+      width: 5PX;
+      margin-left: 20px;
       display: flex;
       flex-direction: column;
       font-size: 1.2em;
@@ -205,20 +215,20 @@ section h2
 {   
     width: 7PX;
     align-self: flex-start;
-    margin-left: 95PX;
+    margin-lef: 95PX;
     color: #FFCA28;
     
 }
 
 .opendev
 {    
-    margin-left: 156PX;
+    margin-left: 146PX;
 }
 
 .dev
 {    
-    width: 250PX;
-     margin-left: 272PX;
+    width: 11PX;
+     margin-left: 42PX;
      font-size: 1.2em;
      margin-left: 32PX;
      color:rgb(92, 88, 88);
@@ -238,7 +248,7 @@ section h2
     border: #FFCA28 1px none;
     margin-top: 5PX;
     text-align: justify;
-    margin-left: 345PX;
+    margin-left: 210PX;
 }
 
 .langage
@@ -247,6 +257,69 @@ section h2
     color: black;
     margin-top: 30PX;
 }
+
+.diviconedate
+{   
+    width: 25PX;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.textexperiencepro
+{  
+    width: auto;
+    display: flex;
+    
+    
+}
+
+.textedate
+{  
+    width:170PX;
+    
+    margin-left: 10px;
+    margin-top: 3PX;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2 em;
+    
+}
+
+.iconeexperiencepro
+{    
+    borde: #FFCA28 solid 1px;
+    width:auto;
+    
+    align-self: flex-start;
+    margin-lef: 50PX;
+    color: #FFCA28;
+}
+.nice
+{   
+    orde: 1;
+
+}
+
+.textexper
+{  
+    width: 500PX;
+    borde: #FFCA28 solid 1px;
+    margin-top: PX;
+    text-align: justify;
+    margin-left: 10PX;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fastdev
+{   
+    display: flex;
+    flex-direction: column;
+
+}
+
 @media all and (max-width: 830px)
 { 
     #toutelessections
@@ -264,7 +337,7 @@ section h2
      
  } 
 }  
-@media all and (min-width:830px)and(max-width:1050px)
+@media all and (max-width:1050px)
 {   
  section h2
  {   
@@ -273,6 +346,10 @@ section h2
      
 
      
+ }
+ .opendev
+ {  
+     margin-left: 15px;
  }
 
  .devh3
