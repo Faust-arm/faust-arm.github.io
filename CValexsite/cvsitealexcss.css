@@ -14,7 +14,7 @@
 
 .nom
 {  
-    font-siz: 3em;
+    
     margin-left: 20px;
 }
 
@@ -187,7 +187,7 @@ section h2
 #toutelessections
 { 
     
-    border:1px solid black;
+    
     width:auto;
     display:flex;
     flex-direction: row-reverse;
