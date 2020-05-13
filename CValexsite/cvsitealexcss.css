@@ -160,6 +160,7 @@ section h2
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4em;
     text-align: left;
+    
 } 
 
 .partiegauche h2
@@ -191,7 +192,7 @@ section h2
     border:rgb(68, 67, 67) 2PX solid ;
     margin: auto;
     text-align: center;
-    margin-left: 55PX;
+    margin-lef: 55PX;
     margin-bottom: 50PX;
 }
 
@@ -205,6 +206,7 @@ section h2
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
+    
 }
 
 #toutelessections
@@ -447,10 +449,7 @@ section h2
 
      
     }
- opendev
- {  
-     margin-left: 15px;
-    }
+ 
     
  .devh3
  {   
@@ -462,13 +461,27 @@ section h2
  {  
      text-align: left;
  }
+.textexper
+{  
+    width: 700px;
+}
+
 }
 
 @media all and (max-width:820px)
 {
 .textcompetence
 { 
-    width: 500px;
+    width: 600px;
+}
+.textexperiencepro
+{ 
+    width: 600px;
+}
+
+.textexper
+{ 
+    width: 600px;
 }
 
 }
@@ -480,6 +493,7 @@ section h2
  {  
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .toutedate
@@ -493,7 +507,11 @@ section h2
 }
 .textcompetence
 { 
-    width: 300px;
+    width: 500px;
+}
+.textexper
+{  
+    width: 500px;
 }
 
 
@@ -516,7 +534,7 @@ width: 400px;
 
 .textcompetence
 { 
-    width: 200px;
+    width: 400px;
     margin-bottom: 30px;
 }
 
@@ -525,6 +543,14 @@ width: 400px;
 
 @media all and (max-width:580px)
 {
+    section
+    {  
+        
+        padding: 0%;
+    }
+
+
+
 .touteslesicone
 {  
    margin-left: 90px;
@@ -536,8 +562,22 @@ width: 400px;
 {  
 .textexper    
 {   
-   width: 300px;
+   width: 400px;
 }
+.textcompetence
+{ 
+    width: 400px;
+}
+.textexperiencepro
+{ 
+    width: 400px;
+}
+.recommandations
+{ 
+    margin-top: 20px;
+}
+
+
 
 section h2
 {   
@@ -558,10 +598,7 @@ section h2
 
 @media all and (max-width:470px)
 {   
-.ammeil
-{  
-    margin-right0px;
-}
+
 .open
 {  
     width: 120px;
@@ -577,8 +614,20 @@ section h2
 
   .textexper
   {  
-      width: 250px;
+      width: 350px;
   } 
+  .textcompetence
+  { 
+      width: 295px;
+  }
+  .textexperiencepro
+  { 
+      width: 350px;
+  }
+  
+
+
+
   .opendev
   {  
       margin-left: 10px;
@@ -589,7 +638,9 @@ section h2
   }
   .amsoustitre
   {  
-      width: 100px;
+      padding: 0%;
+      margin: 0;
+      font-size: 2.5;
   }
   .touteslesicone
   {  
@@ -597,4 +648,22 @@ section h2
   }
 
 
+}
+
+
+@media all and (max-width:380px)
+{  
+ .ammeil
+ {  
+     font-size: 2.6em ;
+ }   
+
+ .textexperiencepro, .textexper
+{  
+    width: 280px;
+}
+.textcompetence
+{ 
+    width: 245px;
+}
 }
