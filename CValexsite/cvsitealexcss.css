@@ -149,6 +149,7 @@ section h2
   font-size: 1.4em;
   
   
+  
 }
 
 .partiegauche
@@ -363,6 +364,11 @@ section h2
         display: flex;
         flex-direction: column;
     }
+
+ection
+{  
+    width: 100%;
+} 
     
 }  
 
@@ -429,7 +435,7 @@ section h2
 {  
     
     text-align: justify;
-    margin-left:300px;
+    margin-lef:300px;
     
 }
 
@@ -438,7 +444,7 @@ section h2
 {   
     .section
 {  
-    text-align: left;
+    text-alig: left;
 }
 
 section h2
@@ -546,7 +552,7 @@ width: 400px;
     section
     {  
         
-        padding: 0%;
+        padding: 5px;
     }
 
 
