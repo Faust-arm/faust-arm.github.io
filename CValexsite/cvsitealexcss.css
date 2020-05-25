@@ -177,10 +177,11 @@ section h2
 
 .touteslesicone
 {  
-    width: 350PX;
+    width: auto;
     font-size: 2em;
     display: flex;
     flex-direction: row;
+    justify-content: ;
     padding: 10px 40px 0 0;
 }
 
@@ -189,12 +190,12 @@ section h2
     border-radius: 50%;
     overflow: hidden;
     width: 65px;
-    height: 63px;
+    height: 65px;
     border:rgb(68, 67, 67) 2PX solid ;
     margin: auto;
     text-align: center;
-    margin-lef: 55PX;
-    margin-bottom: 50PX;
+    
+    margin-bottom: 20PX;
 }
 
 .contacttext 
@@ -435,17 +436,14 @@ ection
 {  
     
     text-align: justify;
-    margin-lef:300px;
+    
     
 }
 
 }  
 @media all and (max-width:1050px)
 {   
-    .section
-{  
-    text-alig: left;
-}
+  
 
 section h2
  {   
@@ -593,7 +591,7 @@ section h2
 }
 #texth2
 { 
-    width: 600px;
+    width: 100%;
 }
 .touteslesicone
 {  
