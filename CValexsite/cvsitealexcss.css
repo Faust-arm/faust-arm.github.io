@@ -400,7 +400,12 @@ section h2
 }  
 
 @media all and (max-width:1200px)
-{  
+{ 
+section
+{ 
+    width: auto;
+}
+    
 .ammeil
 {  
    display: flex;
@@ -437,10 +442,15 @@ section h2
     width: 470;
 }
 
-.section
+section
 { 
-   width: 800px;
+   width: auto;
 }
+.partiegauche, .section
+{ 
+    width: 100%;
+}    
+
 
 .opendev
 {  
@@ -536,7 +546,7 @@ section h2
  {  
     display: flex;
     flex-direction: column;
-    width: 500px;
+    widt: 500px;
 }
 
 .toutedate
@@ -550,11 +560,11 @@ section h2
 }
 .textcompetence
 { 
-    width: 500px;
+    widt: 500px;
 }
 .textexper
 {  
-    width: 500px;
+    widt: 500px;
 }
 
 
@@ -565,7 +575,7 @@ section h2
 {  
 .textexper
 {  
-width: 400px;
+widt: 400px;
 }
 
 .allrecommandations
@@ -580,10 +590,10 @@ width: 400px;
 .textcompetence, .textcompetence2
 {  
     margin-left: 50PX;
-    width: 470;
+    widt: 470;
 }
 { 
-    width: 400px;
+    widt: 400px;
     margin-bottom: 30px;
 }
 
@@ -608,25 +618,21 @@ width: 400px;
 
 
 
-.touteslesicone
-{  
-   margin-left: 90px;
 
-}
 }
 
 @media all and (max-width:510px)
 {  
     
-.textexper    
+textexper    
 {   
    width: 400px;
 }
-.textcompetence
+textcompetence
 { 
     width: 400px;
 }
-.textexperiencepro
+textexperiencepro
 { 
     width: 400px;
 }
@@ -675,7 +681,7 @@ section h2
 
   .textexper
   {  
-      width: 350px;
+      width: 320px;
   } 
   .textcompetence
   { 
@@ -683,7 +689,7 @@ section h2
   }
   .textexperiencepro
   { 
-      width: 350px;
+      width: 320px;
   }
   
   .textcompetence2
@@ -734,5 +740,6 @@ section h2
 {  
     width: 250px;
 }
+
 
 }
