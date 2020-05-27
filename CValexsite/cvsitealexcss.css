@@ -99,12 +99,12 @@ section h2
     color:rgb(92, 88, 88);
     border: #FFCA28 1px none;
 }
-
-
-.h2text
+.datetitretext
 {  
-    margin-left:30px ;
+
 }
+
+
 
 .devh3
 {   
@@ -249,7 +249,7 @@ section h2
 
 .dateopen
 {  
-    margin-top: 35PX;
+    margin-top: 45PX;
     display: flex;
     flex-direction: row;
 }
@@ -291,7 +291,7 @@ section h2
     border: #FFCA28 1px none;
     margin-top: 5PX;
     text-align: justify;
-    margin-left: 210PX;
+    margin-left: 178px;
 }
 
 .competence2, .textcompetence2
@@ -309,11 +309,7 @@ section h2
     color: black;
     margin-top: 30PX;
 }
-competence2, textcompetence2
-{  
-    margin-left: 50PX;
-    width: 470;
-}
+
 
 .diviconedate
 {   
@@ -328,6 +324,7 @@ competence2, textcompetence2
 {  
     width: auto;
     display: flex;
+    margin-top: 35px;
 }
 
 .textcompetence
@@ -433,6 +430,7 @@ competence2, textcompetence2
     width: 400px;
 }
 
+
 .competence2, .textcompetence2
 {  
     margin-left: 40PX;
@@ -451,7 +449,7 @@ competence2, textcompetence2
 
 .html, .java, .node, .mongodb, .express, .langage, .vuejs, .textcompetence, .competence
 {  
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 } 
@@ -699,7 +697,7 @@ section h2
   } 
   .html, .java, .node, .mongodb, .express, .langage, .vuejs, .textcompetence, .competence
   {  
-    margin-left: 70px;
+    margin-left: 40px;
   }
   .amsoustitre
   {  
