@@ -618,7 +618,7 @@ width: 400px;
     .competence2, .textcompetence2
     {  
         margin-left: 40PX;
-        width: 320px;
+        width: auto;
     }
     
 
