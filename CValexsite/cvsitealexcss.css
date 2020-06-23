@@ -84,6 +84,7 @@ section h2
     font-size: 1.3em;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .formationsoutitre
@@ -124,6 +125,7 @@ section h2
 .recommandations
 {  
     margin-bottom: 50px;
+    margin-left: 40px;
 }
 
 
@@ -160,7 +162,7 @@ section h2
 
 .partiegauche
 { 
-    width: auto;
+    width: 368px;
     border:1px none gray;
     color:rgb(92, 88, 88);
     background:#FFCA28;
@@ -231,6 +233,8 @@ section h2
     justify-content: center;
 }
 
+
+
 .datenice
 {   
       
@@ -242,7 +246,7 @@ section h2
       width: 180px;
 }
 
-.divdateemploicompetence
+.textexperiencepro
 {  
     margin-top: 45PX;
     display: flex;
@@ -332,7 +336,7 @@ section h2
 
 .textedate
 {  
-    width:170PX;
+    
     margin-left: 10px;
     margin-top: 3PX;
     display: flex;
@@ -342,7 +346,7 @@ section h2
 
 .iconeexperiencepro
 {    
-    border: #FFCA28 solid 1px;
+    
     width:auto;
     align-self: flex-start;
     color: #FFCA28;
@@ -430,7 +434,7 @@ section
 .competence2, .textcompetence2
 {  
     
-    width: 470px;
+    width: 550px;
 }
 
 section
@@ -441,7 +445,10 @@ section
 { 
     width: 100%;
 }    
-
+.nomprenomsoutitre
+{  
+    margin-left: 70px;
+}
 
 } 
 
@@ -538,17 +545,14 @@ section h2
     margin-top: 30px;
 }
 
-.touteslesicone
-{  
-    margin-left: 150px;
-}
+
 .textcompetence
 { 
     width: 500px;
 }
 .formationcompetence
 {  
-    width: 500px;
+    width: 550px;
 }
 
 
@@ -559,7 +563,7 @@ section h2
 {  
 .formationcompetence
 {  
-width: 400px;
+width: 500px;
 }
 
 .allrecommandations
@@ -603,7 +607,7 @@ section
     
 .formationcompetence    
 {   
-   width: 400px;
+   width: 450px;
 }
 .textcompetence
 { 
@@ -635,7 +639,10 @@ section h2
 {  
     margin-left: 50px;
 }
-
+.nomprenomsoutitre
+{  
+    margin-left: 0;
+}
 
 
 }
@@ -663,7 +670,7 @@ section h2
   
   .textcompetence2
 {   
-    width: 220px;
+    width: 350px;
 }
 
   
@@ -687,22 +694,22 @@ section h2
 {  
  .nomprenom
  {  
-     font-size: 2.2em ;
+     font-size: 2em ;
  }   
 
  .textexperiencepro, .formationcompetence
 {  
-    width: 280px;
+    width: 270px;
 }
-.textcompetence
+.textcompetence, .textcompetence2
 { 
-    width: 245px;
+    width: 265px;
+}
+.recommandations, .allrecommandations
+{  
+    margin-left: 0;
 }
 
-.soustitre
-{  
-    width: 250px;
-}
 
 
 }
