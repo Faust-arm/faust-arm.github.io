@@ -90,15 +90,15 @@ section h2
 .formationsoutitre
 {   
     font-size: 1.3em;
-    color:rgb(77, 74, 74) ;
+    color:rgb(92, 88, 88) ;
 }
 
 #texth2, #texth2conpetences
 {  
     
-    font-size:1.2em;
+    font-size:1.1em;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(92, 88, 88);
+    color:black;
     border: #FFCA28 1px none;
 }
 
