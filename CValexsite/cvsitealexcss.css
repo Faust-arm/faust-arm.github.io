@@ -8,15 +8,11 @@
 .nomprenom
 {   
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
 
 }
 
-.nom
-{  
-    
-    margin-left: 20px;
-}
+
 
 body
 {   
@@ -48,7 +44,7 @@ h1
 .nomprenom
 { 
     height: 120px;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 .section
@@ -56,21 +52,21 @@ h1
     width: 900px;
 }
 
-section, header
+.section
 {  
     padding: 0 95px 0 85px;
     
 }
 
-section h2
+.sectiondroite h2
 { 
     border-bottom: 2PX #FFCA28 solid ;
     text-align: left;
-    width: 720px;
+    width: 770px;
      
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 19%;
+    margin-top: 50px;
     padding-bottom: 14px;
 }
 .formationcompetence
@@ -159,6 +155,12 @@ section h2
   
   
 }
+.sectionapropo
+{  
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 .partiegauche
 { 
@@ -220,6 +222,7 @@ section h2
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
+    
     flex-grow: 1;
 }
 
@@ -449,6 +452,14 @@ section
 {  
     margin-left: 70px;
 }
+.section
+{   
+    padding: 0;
+}
+.sectiondroite
+{  
+    width:auto
+}
 
 } 
 
@@ -488,7 +499,7 @@ header
 section h2
  {   
      width: auto;
-     margin-left: 50px;
+     
      
 
      
@@ -590,11 +601,7 @@ width: 500px;
 
 @media all and (max-width:580px)
 {
-section
-    {  
-        
-        padding: 5px;
-    }
+
 .competence2, .textcompetence2
     {  
        
@@ -625,12 +632,6 @@ section
 
 
 
-section h2
-{   
-    width: 210px;
-    margin: 50px;
-
-}
 #texth2, #texth2conpetences
 { 
     width: 100%;
