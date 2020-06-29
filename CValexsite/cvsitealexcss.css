@@ -674,6 +674,7 @@ width: 500px;
     width: 350px;
 }
 
+
   
  
   .nomprenomsoutitre
@@ -689,7 +690,14 @@ width: 500px;
 
 
 }
+@media all and (max-width:421px)
+{   
+.sectiondroite h2
+{   
+   font-size: 21px;
+}
 
+}
 
 @media all and (max-width:380px)
 {  
@@ -710,7 +718,10 @@ width: 500px;
 {  
     margin-left: 0;
 }
-
+.sectiondroite h2
+{   
+   font-size: 18px;
+}
 
 
 }
