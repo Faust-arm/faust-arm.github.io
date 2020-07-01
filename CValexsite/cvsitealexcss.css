@@ -363,7 +363,7 @@ h1
 .directeur, .telephone, .email
 {   
     color:rgb(92, 88, 88);
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .formationcompetence
@@ -420,7 +420,7 @@ section
 .competence2, .textcompetence2
 {  
     
-    width: 550px;
+    width: 500px;
 }
 
 section
