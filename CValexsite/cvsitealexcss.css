@@ -5,12 +5,7 @@
     
 }
 
-.nomprenom
-{   
-   display: flex;
-   flex-direction: column;
 
-}
 
 
 
@@ -396,11 +391,7 @@ section
     width: auto;
 }
     
-.nomprenom
-{  
-   display: flex;
-   flex-direction: column;
-}  
+
 
 .soustitre
 {  
